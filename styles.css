@@ -1,0 +1,146 @@
+/* Body Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: seashell;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: black;
+}
+
+
+/* Header Styling */
+.header {
+    position: relative;
+    background-color: black;
+    color: seashell;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 15px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-bottom: 2px solid seashell;
+}
+
+.logo {
+    height: 55px;
+}
+
+.navbar a {
+    color: seashell;
+    font-weight: 600;
+    text-decoration: underline;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: bisque;
+    cursor: pointer;
+}
+
+
+/* Mission Statement */
+#mission {
+    border-top: 3px solid seashell;
+    border-bottom: 3px solid seashell;
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    margin: 10px auto;
+    background-image: url("Images/background.jpg");
+}
+
+#mission .content {
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    padding: 14px;
+    font-size: 20px;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-top: 2px solid seashell;
+    border-bottom: 2px solid seashell;
+}
+
+/* Menu Section */
+#menu {
+    font-size: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 1200px;
+    margin: 40px auto;
+    align-content: center;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+
+.second-row {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+
+.item img {
+    display: block;
+    flex-flow: row wrap;
+    height: 200px;
+    margin: 52px;
+    padding: 5px;
+    justify-content: space-around;
+    border: 2px solid seashell;
+}
+
+/* Location Section */
+#location {
+    font-size: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 1200px;
+    height: 700px;
+    margin: 40px auto;
+    align-content: center;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    border: 3px solid seashell;
+    background-image: url('Images/locations.jpg');
+    background-repeat: no-repeat;
+}
+
+.address {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px;
+    line-height: 45px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 2px solid seashell;
+}
